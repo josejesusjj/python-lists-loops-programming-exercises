@@ -4,7 +4,7 @@ counts = {}
 #your code go here:
 for x in par:
     if x != ' ':
-        if x not in counts:
+        if x.lower() not in counts:
             counts[x.lower()] = 1
         else:
             counts[x.lower()] += 1
