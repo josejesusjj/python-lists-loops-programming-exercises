@@ -7,3 +7,8 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def filter_list(item):
+    return 'am' in item
+
+new_list = list(filter(filter_list, names))
+print(new_list)

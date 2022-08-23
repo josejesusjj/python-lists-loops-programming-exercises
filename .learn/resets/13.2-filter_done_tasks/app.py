@@ -12,8 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def cleaner(item):
-	return item['done'] == True
 
-result = list(filter(cleaner, tasks))
-print(result)

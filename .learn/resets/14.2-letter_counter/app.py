@@ -2,10 +2,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-for x in par:
-    if x != ' ':
-        if x not in counts:
-            counts[x.lower()] = 1
-        else:
-            counts[x.lower()] += 1
+
 print(counts)
+
